@@ -39,7 +39,7 @@
             <li><a class="navbar-book" id="book_button">BOOK NOW</a></li>
         </ul>
     </nav>
-    <div class="jumbotron jumbo-1">
+    <div class="jumbotron jumbo-1" id="jumbo-1">
         <div class="container vertical-center">
             <div class="row">
                 <div class="col-md-12 horizontal-center">
@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbo-2">
+    <div class="jumbotron jumbo-2" id="jumbo-2">
         <div class="container center-block">
             <div class="row vertical-center">
                 <div class="col-md-12">
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbo-3">
+    <div class="jumbotron jumbo-3" id="jumbo-3">
         <div class="container center-block">
             <div class="row vertical-center text-center">
                 <div class="col-md-12">
@@ -101,7 +101,7 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbo-4">
+    <div class="jumbotron jumbo-4" id="jumbo-4">
         <div class="container center-block">
             <div class="row">
                 <div class="col-md-4 text-right vertical-center">
@@ -191,7 +191,7 @@
     </div>
     <section class="jumbo-5" id="googleMap">
     </section>
-    <div class="section jumbo-6">
+    <div class="section jumbo-6" id="jumbo-6">
         <div class="container-fluid">
             <div class="footer">
                 <div class="row">
@@ -255,9 +255,15 @@
     </div>
     <script type="text/javascript">
         $(function () {
+            $("#jumbo-1").scroll(function(){
+                alert("a")
+                // $('html, body').animate({
+                //     scrollTop: $("#jumbo-2").offset().top
+                // }, 2000);
+            })
             $("#book_button").click(function () {
                 // alert("abcd")
-                $("#loader").delay(2000).fadeIn("slow", function(){
+                $("#loader").fadeIn("slow", function(){
                     $("#loader").delay(2000).fadeOut("slow");
                 });
                 // $("#loader").delay(800).fadeOut(400, function () {
