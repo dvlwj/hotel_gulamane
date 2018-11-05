@@ -1,0 +1,211 @@
+.navbar {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    border: 0;
+    margin: 0 !important;
+}
+.divider-white{
+        height: 50px;
+        margin: 0 9px;
+        border-right: 1px solid #ffffff;
+        /* border-left: 1px solid #f2f2f2; */
+}
+.navbar-label {
+    font-weight: bold;
+    color: black !important;
+}
+.navbar-calendar {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #9E342F !important;
+}
+.navbar-book {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+.jumbotron{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(0, 0, 0, 0) */
+}
+.jumbo-1 {
+    background-image: url("../images/jumbo-1.jpg") !important;
+    background-repeat: no-repeat,
+    repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbo-1 .vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20em !important;
+}
+.jumbo-1 .horizontal-center  img{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.jumbo-2 {
+    text-align: center;
+    background-image: url("../images/jumbo-2.jpg") !important;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+.jumbo-2 .vertical-center{
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.jumbo-2 .horizontal-center{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.jumbo-3 {
+    background-color: #FFF3E3;
+}
+.jumbo-3 .vertical-center{
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.jumbo-3 .col-mini {
+    color: #ffffff;
+    padding: 1em;
+    /* margin: 1px; */
+}
+.jumbo-3 .col-mini img {
+    max-width: 98px !important;
+    height: 74px !important;
+}
+.jumbo-3 .col-top-left .container{
+    padding: 1em;
+    background-image: url("../images/wedding.jpg") !important;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbo-3 .col-top-right .container {
+    padding: 1em;
+    background-image: url("../images/spa.jpg") !important;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbo-3 .col-bottom-left .container {
+    padding: 1em;
+    background-image: url("../images/restaurant.jpg") !important;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbo-3 .col-bottom-right .container {
+    padding: 1em;
+    background-image: url("../images/coffee.jpg") !important;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbo-4 {
+    background-color: #FFF3E3;
+}
+.jumbo-4 .vertical-center{
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.jumbo-4 .col-room {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.jumbo-4 .container-grid {
+    display: table !important;
+    width: 100% !important;
+    height: 100% !important;
+    /* margin-top: -50px; */
+    /* padding: 50px 0 0 0; set left/right padding according to needs */
+    box-sizing: border-box !important;
+}
+/* .jumbo-4 .row-grid {
+    height: 100% !important;
+    display: table-row !important;
+}
+.jumbo-4 .row-grid .no-float {
+    display: table-cell !important;
+    float: none !important;
+} */
+.jumbo-4 .col-room img{
+    border: 1px solid black;
+}
+.jumbo-4 .col-room {
+    /* border: 1px solid black; */
+    /* margin: 1em; */
+    /* padding: 0; */
+    /* padding: 1em !important; */
+}
+.jumbo-4 .col-room{
+    /* border: 1px solid black; */
+    /* margin-top: 1em;
+    margin-bottom: 1em; */
+    /* margin-right: 1em; */
+    /* padding: 1em; */
+    /* height: 100% !important;
+    display: table-cell;
+    float: none; */
+}
+.jumbo-5 {
+    width: 100% !important;
+    height: 100vh !important; 
+}
+.jumbo-6 {
+    background-color: #FFF3E3 !important;
+    color: #ffffff;
+}
+.jumbo-6 ul,
+.jumbo-6 ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.jumbo-6 .vertical-center {
+    min-height: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    padding: 0;
+    /* padding-bottom: 20em !important; */
+}
+.jumbo-6 .horizontal-center  img{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.jumbo-6 .container-fluid{
+    margin:0;
+    padding:0;
+}
+.jumbo-6 .copyright{
+    width: 100%;
+    text-align: center;
+    color: #000000;
+}
+.jumbo-6 .footer{
+    margin-top: 70vh;
+    /* position: relative;
+    bottom: 0; */
+    background-color: #9E342F;
+}
+.jumbo-6 .col-md-4 {
+    height: 100%;
+    margin: 1em 0;
+}
