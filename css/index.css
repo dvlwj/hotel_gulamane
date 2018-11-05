@@ -1,14 +1,15 @@
 @font-face {
     font-family: 'sf_pro_displaysemibold';
-    src: url('../fonts/sf-pro-display-semibold-webfont.woff2') format('woff2'),
-        url('../fonts/sf-pro-display-semibold-webfont.woff') format('woff');
+    src: url('../fonts/sf-pro-display-semibold-webfont.woff2') format('woff2'), url('../fonts/sf-pro-display-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     font-family: "sf_pro_displaysemibold", sans-serif;
     font-weight: normal !important;
 }
+
 #loader {
     position: fixed;
     width: 100%;
@@ -19,24 +20,28 @@ body {
     padding: 0;
     z-index: 999 !important;
 }
-#loader .center-loader{
+
+#loader .center-loader {
     position: fixed;
     left: 45%;
     top: 45%;
     margin-top: -100px;
     margin-left: -100px;
 }
+
 #loader .vertical-center {
     /* min-height: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center; */
 }
-#loader .horizontal-center img{
+
+#loader .horizontal-center img {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .navbar {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 5px;
@@ -44,42 +49,50 @@ body {
     margin: 0 !important;
     z-index: 998 !important;
 }
-.divider-white{
+
+.divider-white {
     height: 50px;
     margin: 0 9px;
     border-right: 1px solid #ffffff;
     /* border-left: 1px solid #f2f2f2; */
 }
+
 .navbar-label {
     font-weight: bold;
     color: black !important;
 }
+
 .navbar-calendar {
     background-color: rgba(255, 255, 255, 0.5);
     color: #9E342F !important;
-    border-radius:0;
+    border-radius: 0;
     margin-top: 0.7em;
 }
+
 .navbar-book {
     font-weight: bold;
     color: #ffffff !important;
 }
+
 .navbar-book:hover {
     cursor: pointer;
 }
-.jumbotron{
+
+.jumbotron {
     height: 100vh;
     margin: 0;
     padding: 0;
     /* background-color: rgba(0, 0, 0, 0) */
 }
+
 .jumbo-1 {
     background-image: url("../images/jumbo-1.jpg") !important;
-    background-repeat: no-repeat,
-    repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat, repeat;
     background-position: center;
     background-size: cover;
 }
+
 .jumbo-1 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
@@ -87,56 +100,67 @@ body {
     align-items: center;
     padding-bottom: 20em !important;
 }
-.jumbo-1 .horizontal-center  img{
+
+.jumbo-1 .horizontal-center img {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .jumbo-2 {
     text-align: center;
     background-image: url("../images/jumbo-2.jpg") !important;
+    background-attachment: fixed;
     background-repeat: no-repeat, repeat;
     background-position: center;
     background-size: cover;
     color: #ffffff;
 }
-.jumbo-2 .vertical-center{
+
+.jumbo-2 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
-.jumbo-2 .horizontal-center{
+
+.jumbo-2 .horizontal-center {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .jumbo-3 {
     background-color: #FFF3E3;
 }
-.jumbo-3 .vertical-center{
+
+.jumbo-3 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     padding: 0;
 }
+
 .jumbo-3 .col-mini {
     color: #ffffff;
     padding: 1em;
     /* margin: 1px; */
 }
+
 .jumbo-3 .col-mini img {
     max-width: 98px !important;
     height: 74px !important;
 }
-.jumbo-3 .col-top-left .container{
+
+.jumbo-3 .col-top-left .container {
     padding: 1em;
     background-image: url("../images/wedding.jpg") !important;
     background-repeat: no-repeat, repeat;
     background-position: center;
     background-size: cover;
 }
+
 .jumbo-3 .col-top-right .container {
     padding: 1em;
     background-image: url("../images/spa.jpg") !important;
@@ -144,6 +168,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .jumbo-3 .col-bottom-left .container {
     padding: 1em;
     background-image: url("../images/restaurant.jpg") !important;
@@ -151,6 +176,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .jumbo-3 .col-bottom-right .container {
     padding: 1em;
     background-image: url("../images/coffee.jpg") !important;
@@ -158,21 +184,25 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .jumbo-4 {
     background-color: #FFF3E3;
 }
-.jumbo-4 .vertical-center{
+
+.jumbo-4 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     padding: 0;
 }
+
 .jumbo-4 .col-room {
     margin: 0;
     padding: 10px;
     text-align: center;
 }
+
 .jumbo-4 .container-grid {
     display: table !important;
     width: 100% !important;
@@ -181,6 +211,7 @@ body {
     /* padding: 50px 0 0 0; set left/right padding according to needs */
     box-sizing: border-box !important;
 }
+
 /* .jumbo-4 .row-grid {
     height: 100% !important;
     display: table-row !important;
@@ -189,16 +220,19 @@ body {
     display: table-cell !important;
     float: none !important;
 } */
-.jumbo-4 .col-room img{
+
+.jumbo-4 .col-room img {
     border: 1px solid black;
 }
+
 .jumbo-4 .col-room {
     /* border: 1px solid black; */
     /* margin: 1em; */
     /* padding: 0; */
     /* padding: 1em !important; */
 }
-.jumbo-4 .col-room{
+
+.jumbo-4 .col-room {
     /* border: 1px solid black; */
     /* margin-top: 1em;
     margin-bottom: 1em; */
@@ -208,24 +242,29 @@ body {
     display: table-cell;
     float: none; */
 }
+
 .jumbo-5 {
     width: 100% !important;
-    height: 100vh !important; 
+    height: 100vh !important;
 }
+
 .jumbo-6 {
     background-color: #FFF3E3 !important;
     color: #ffffff;
 }
+
 .jumbo-6 ul,
 .jumbo-6 ol {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .jumbo-6 ul li,
-.jumbo-6 ol li{
+.jumbo-6 ol li {
     margin-bottom: 0.7em;
 }
+
 .jumbo-6 .vertical-center {
     min-height: 100%;
     /* min-height: 100vh; */
@@ -234,31 +273,38 @@ body {
     padding: 0;
     /* padding-bottom: 20em !important; */
 }
-.jumbo-6 .horizontal-center  img{
+
+.jumbo-6 .horizontal-center img {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
-.jumbo-6 .container-fluid{
-    margin:0;
-    padding:0;
+
+.jumbo-6 .container-fluid {
+    margin: 0;
+    padding: 0;
 }
-.jumbo-6 .copyright{
+
+.jumbo-6 .copyright {
     width: 100%;
     text-align: center;
     color: #000000;
 }
-.jumbo-6 .footer{
+
+.jumbo-6 .footer {
     /* margin-top: 70vh; */
     /* position: relative;
     bottom: 0; */
     background-color: #9E342F;
 }
+
 .jumbo-6 .col-md-4 {
     height: 100%;
     margin: 1em 0;
 }
+
 /* image hover css */
+
 .hovereffect {
     width: 100%;
     height: 100%;
