@@ -43,7 +43,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 5px;
     border: 0;
     margin: 0 !important;
@@ -93,12 +93,20 @@ body {
     background-size: cover;
 }
 
+.jumbo-1 .center-loader {
+    /* position: fixed;
+    left: 45%;
+    top: 45%;
+    margin-top: -100px;
+    margin-left: -100px; */
+}
+
 .jumbo-1 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-bottom: 20em !important;
+    /* padding-bottom: 20em !important; */
 }
 
 .jumbo-1 .horizontal-center img {
@@ -110,10 +118,10 @@ body {
 .jumbo-2 {
     text-align: center;
     background-image: url("../images/jumbo-2.jpg") !important;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: center !important;
+    background-size: cover !important;
     color: #ffffff;
 }
 
@@ -249,6 +257,7 @@ body {
 }
 
 .jumbo-6 {
+    height: auto !important;
     background-color: #FFF3E3 !important;
     color: #ffffff;
 }
@@ -296,6 +305,11 @@ body {
     /* position: relative;
     bottom: 0; */
     background-color: #9E342F;
+}
+
+.jumbo-6 .fp-tableCell {
+    height: auto !important;
+    vertical-align: bottom;
 }
 
 .jumbo-6 .col-md-4 {
