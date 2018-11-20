@@ -317,6 +317,16 @@ body {
     margin: 1em 0;
 }
 
+.jumbo-6 a,
+.jumbo-6 a:hover {
+    text-decoration: none !important;
+    color: #FFF !important;
+}
+
+.jumbo-6 a:hover {
+    color: #f9f9f9 !important;
+}
+
 /* image hover css */
 
 .hovereffect {
@@ -405,4 +415,35 @@ body {
 
 .form-email {
     width: 35vh !important;
+}
+
+.bg-image {
+    background-attachment: fixed;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.d-horizontal {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.d-vertical {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.d-image {
+    /* max-width: 50% !important; */
+    height: 100vh !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
