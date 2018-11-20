@@ -402,3 +402,7 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+.form-email {
+    width: 35vh !important;
+}
